@@ -1,0 +1,62 @@
+.Register .App {
+    text-align: center;
+}
+
+.Register .label {
+  display: block;
+  font-size: larger;
+  color: rgb(189, 115, 231);
+  padding: 5px;
+}
+
+.Register .input {
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  transition: 0.5s;
+  outline: none;
+}
+
+.Register .btn {
+  width: 150px;
+  margin: 8px 0;
+  background-color: white;
+  color: black;
+  border: 3px solid #e7e7e7;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.Register .btn:hover {
+  background-color: #e7e7e7;
+}
+
+.Register .messages {
+  display: flex;
+  justify-content: center;
+}
+
+.Register .error {
+  display: block;
+  color: rgb(189, 115, 231);
+}
+
+.Register .success {
+  display: block;
+  color: lightblue;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+
+.Register form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

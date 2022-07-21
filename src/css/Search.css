@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+}
+
+
+.Container{
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1.5rem .5rem;
+    /* background-color: #FFF8DC;  */
+}
+
+.Container{
+    border-bottom: .01rem solid rgba(0,0,0,.3);
+}
+
+
+
+.Heading {
+    text-align: start;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+
+
+.Innerheader {
+    text-align: start;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: .6rem;
+}
+/*----------SEARCHING PART--------------*/
+
+
+.SearchPart .Container input{
+    font-family: FontAwesome;
+}
+
+
+
+.SearchPart  .Container{
+    border-bottom: none;
+}
+
+
+
+.SearchPart .Inner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.SearchPart .Inner input{
+    cursor: pointer;
+    width: 30%;
+    height: 2rem;
+    font-size: 1.2rem;
+    padding: .6rem;
+    border-width: .01rem;
+    border-radius: .2rem;
+}
+
+.SearchPart .Inner .Search{
+    padding: .3rem;
+    border-radius: 50%;
+    border-width: 0ch;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background-color: rgb(120, 120, 186);
+}
+
+.SearchPart .Inner svg{
+    color: white;
+
+}
+
+
+.SearchPart .Inner .Search:hover{
+    background-color: rgb(131, 131, 183);
+
+}
+
+
+
+/* ---------------------CALENDAR------------------- */
+
+.react-calendar.hide {
+    display: none;
+  
+}
+
+.hide{
+    display: none;
+}
+
+.react-calendar{
+    margin-right:.4rem;
+    font-size: 1rem;
+    padding: .8rem;
+    border-radius: .4rem;
+}
+
+
+.CalendarModal{
+    position: absolute;
+    top: 33%;
+    right: 27%;
+    padding: .8rem;
+    background-color:rgb(131, 131, 183);
+    z-index: 100;
+}
+
+
+
+.CalendarModal .Calendar{
+    display: flex;
+}
+
+
+.CalendarModal .Done{
+    padding: .6rem;
+    margin-top: .6rem;
+    border-radius: .8rem;
+    width: 8rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.CalendarModal .Done:hover{
+    background-color: rgb(162, 162, 179);;
+}
+
+
+
+
+/* ---------------DESTINATION------------- */
+
+
+.DestModal {
+    position: absolute;
+    top: 33%;
+    right: 39%;
+    width: 27%;
+    height: 20rem;
+    background-color: rgb(131, 131, 183);
+    z-index: 100;
+}
+
+
+.DestModal .Area{
+    width: 100%;
+    height: 15%;
+    cursor: pointer;
+}
+
+
+
+/* ---------------TRAVELLERS------------- */
+
+.TravelModal {
+    position: absolute;
+    top: 33%;
+    right: 39%;
+    width: 27%;
+    height: 20rem;
+    background-color: rgb(131, 131, 183);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    z-index: 100;
+}
+
+.TravelModal .Quantity{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.TravelModal .Quantity button {
+    cursor: pointer;
+    width: 2rem;
+    border-radius: 4rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-size: 1.5rem;
+}
+
+.TravelModal .Done{
+    width: 100%;
+    cursor: pointer;
+    border-radius: .4rem;
+    height: 2.2rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+.TravelModal .Done:hover{
+    background-color: rgb(167, 167, 188) ;
+}
